@@ -1,0 +1,41 @@
+####   Station2 :
+
+setwd('/home/jchan/Documents/Mathématiques/Statistique/Qualitatif/Exercice_2')
+
+
+
+# Chargement des donnees
+
+# entrer le separateur + header + separateur decimal
+data = read.table('station2.txt',sep='\t',h=T,dec='.') 
+
+# Traitement
+pollution = data$pollution
+station = data$station
+
+
+# Representation :
+par(mfrow = c(1,3))
+boxplot(pollution~station)
+plot(as.numeric(station),pollution) # les donnees sont rangées en fonction de l'ordre alphabetique des molecules
+levels(asp) # donne l'ordre alphabetique des molecules . Attention cette ordre diffère selon les ordi !!!!
+
+coplot(pollution~station|rep(1,30)) # la molecule D ne semble pas être très efficace !
+
+
+###### Verification des hypothèses
+
+# Homogénéité des variances
+
+bartlett.test(pollution,station) # bartlett utilisé pour différents échantillons
+
+# Résultat :  Test proche de 1 -> homogénéité des variances . 
+
+# Test de normalité 
+
+shapiro.test(pollution)
+
+# Resultat :  Le test montre que les donnee sont gaussienne -> les residus le sont aussi !
+
+# On considère que les variables sont controlés et indépendante . (a priori )
+
