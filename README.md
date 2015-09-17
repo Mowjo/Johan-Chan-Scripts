@@ -16,9 +16,14 @@ MATLAB :
 All Matlab scripts deal with system differential equations as this is why we were using Matlab.
 
 
-PYTHON :
+C++ :
+
 
 -> Boids : It is a bio-inspired script which basically allow you to search the extremum of a non-continuous function of N-dimension by using the property of the birds migration. 
+
+
+PYTHON :
+
 
 -> Alignement : It is a script that allow you to calculate how far 2 ADN sequences are between other. Knowing that those 2 sequences are from the same gene but in 2 different genom.
 Which means that you can estimate when those 2 genoms started to differ. If you choose the right ADN sequences in 2 species you can roughly speaking, try to estimate
