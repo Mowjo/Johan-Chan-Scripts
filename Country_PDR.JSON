@@ -1,68 +1,68 @@
-[
-    {
-        "Code": "BE",
-        "value": 55.1449,
-        "Name": "Belgium "
-    },
-    {
-        "Code": "CH",
-        "value": 56.59,
-        "Name": "Switzerland "
-    },
-    {
-        "Code": "DE",
-        "value": 58.115,
-        "Name": "Germany "
-    },
-    {
-        "Code": "DK",
-        "value": 52.2665,
-        "Name": "Denmark "
-    },
-    {
-        "Code": "ES",
-        "value": 57.61,
-        "Name": "Spain "
-    },
-    {
-        "Code": "FR",
-        "value": 55.717,
-        "Name": "France "
-    },
-    {
-        "Code": "GB",
-        "value": 65.4903,
-        "Name": "United Kingdom "
-    },
-    {
-        "Code": "GR",
-        "value": 53.7608,
-        "Name": "Greece "
-    },
-    {
-        "Code": "IT",
-        "value": 60.8739,
-        "Name": "Italy "
-    },
-    {
-        "Code": "NL",
-        "value": 56.7328,
-        "Name": "Netherlands "
-    },
-    {
-        "Code": "NO",
-        "value": 52.1084,
-        "Name": "Norway "
-    },
-    {
-        "Code": "RU",
-        "value": 58.9584,
-        "Name": "Russia "
-    },
-    {
-        "Code": "SE",
-        "value": 54.6256,
-        "Name": "Sweden "
-    }
-]
+callback([
+        {
+            "Code": "BE",
+            "value": 55.1449,
+            "Name": "Belgium "
+        },
+        {
+            "Code": "CH",
+            "value": 56.59,
+            "Name": "Switzerland "
+        },
+        {
+            "Code": "DE",
+            "value": 58.115,
+            "Name": "Germany "
+        },
+        {
+            "Code": "DK",
+            "value": 52.2665,
+            "Name": "Denmark "
+        },
+        {
+            "Code": "ES",
+            "value": 57.61,
+            "Name": "Spain "
+        },
+        {
+            "Code": "FR",
+            "value": 55.717,
+            "Name": "France "
+        },
+        {
+            "Code": "GB",
+            "value": 65.4903,
+            "Name": "United Kingdom "
+        },
+        {
+            "Code": "GR",
+            "value": 53.7608,
+            "Name": "Greece "
+        },
+        {
+            "Code": "IT",
+            "value": 60.8739,
+            "Name": "Italy "
+        },
+        {
+            "Code": "NL",
+            "value": 56.7328,
+            "Name": "Netherlands "
+        },
+        {
+            "Code": "NO",
+            "value": 52.1084,
+            "Name": "Norway "
+        },
+        {
+            "Code": "RU",
+            "value": 58.9584,
+            "Name": "Russia "
+        },
+        {
+            "Code": "SE",
+            "value": 54.6256,
+            "Name": "Sweden "
+        }
+]);
 
